@@ -1,0 +1,4 @@
+dn: cn=$groupe,ou=groupes,dc=$DOMAINENIV2,dc=$DOMAINENIV1
+objectClass: groupOfNames
+cn: $groupe
+

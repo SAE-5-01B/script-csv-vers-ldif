@@ -1,0 +1,36 @@
+dn: cn=G1,ou=groupes,dc=org,dc=example
+objectClass: groupOfNames
+cn: G1
+member: uid=gmanvussa,ou=utilisateurs,dc=org,dc=example
+member: uid=jneymar,ou=utilisateurs,dc=org,dc=example
+member: uid=anasse,ou=utilisateurs,dc=org,dc=example
+member: uid=jbricot,ou=utilisateurs,dc=org,dc=example
+member: uid=jnanas,ou=utilisateurs,dc=org,dc=example
+member: uid=mzetofrais,ou=utilisateurs,dc=org,dc=example
+
+dn: cn=G2,ou=groupes,dc=org,dc=example
+objectClass: groupOfNames
+cn: G2
+member: uid=jceptes,ou=utilisateurs,dc=org,dc=example
+member: uid=mhimum,ou=utilisateurs,dc=org,dc=example
+member: uid=ltrophie,ou=utilisateurs,dc=org,dc=example
+member: uid=aconda,ou=utilisateurs,dc=org,dc=example
+member: uid=aterrieur,ou=utilisateurs,dc=org,dc=example
+member: uid=lpard,ou=utilisateurs,dc=org,dc=example
+
+dn: cn=G3,ou=groupes,dc=org,dc=example
+objectClass: groupOfNames
+cn: G3
+member: uid=jpatagueulle,ou=utilisateurs,dc=org,dc=example
+member: uid=merrateur,ou=utilisateurs,dc=org,dc=example
+member: uid=jmonslip,ou=utilisateurs,dc=org,dc=example
+member: uid=aterrieur,ou=utilisateurs,dc=org,dc=example
+member: uid=trique,ou=utilisateurs,dc=org,dc=example
+
+dn: cn=G4,ou=groupes,dc=org,dc=example
+objectClass: groupOfNames
+cn: G4
+member: uid=lratif,ou=utilisateurs,dc=org,dc=example
+member: uid=ohatmoilanusse,ou=utilisateurs,dc=org,dc=example
+member: uid=lbarre,ou=utilisateurs,dc=org,dc=example
+

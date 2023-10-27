@@ -1,0 +1,200 @@
+dn: uid=mzetofrais,ou=utilisateurs,dc=org,dc=example
+objectClass: inetOrgPerson
+uid: mzetofrais
+cn: Mélanie Zetofrais
+sn: Zetofrais
+givenName: Mélanie
+dateOfBirth: 03042000
+isAdmin: 1
+userPassword: mz03042000
+
+dn: uid=jnanas,ou=utilisateurs,dc=org,dc=example
+objectClass: inetOrgPerson
+uid: jnanas
+cn: Judas Nanas
+sn: Nanas
+givenName: Judas
+dateOfBirth: 12061999
+isAdmin: 0
+userPassword: jn12061999
+
+dn: uid=jbricot,ou=utilisateurs,dc=org,dc=example
+objectClass: inetOrgPerson
+uid: jbricot
+cn: Judas Bricot
+sn: Bricot
+givenName: Judas
+dateOfBirth: 25052001
+isAdmin: 0
+userPassword: jb25052001
+
+dn: uid=anasse,ou=utilisateurs,dc=org,dc=example
+objectClass: inetOrgPerson
+uid: anasse
+cn: Anna Nasse
+sn: Nasse
+givenName: Anna
+dateOfBirth: 18051999
+isAdmin: 0
+userPassword: an18051999
+
+dn: uid=jneymar,ou=utilisateurs,dc=org,dc=example
+objectClass: inetOrgPerson
+uid: jneymar
+cn: Jean Neymar
+sn: Neymar
+givenName: Jean
+dateOfBirth: 10051999
+isAdmin: 0
+userPassword: jn10051999
+
+dn: uid=gmanvussa,ou=utilisateurs,dc=org,dc=example
+objectClass: inetOrgPerson
+uid: gmanvussa
+cn: Gérard Manvussa
+sn: Manvussa
+givenName: Gérard
+dateOfBirth: 16051003
+isAdmin: 0
+userPassword: gm16051003
+
+dn: uid=lpard,ou=utilisateurs,dc=org,dc=example
+objectClass: inetOrgPerson
+uid: lpard
+cn: Léo Pard
+sn: Pard
+givenName: Léo
+dateOfBirth: 24021999
+isAdmin: 1
+userPassword: lp24021999
+
+dn: uid=aterrieur,ou=utilisateurs,dc=org,dc=example
+objectClass: inetOrgPerson
+uid: aterrieur
+cn: Alain Terrieur
+sn: Terrieur
+givenName: Alain
+dateOfBirth: 15032004
+isAdmin: 0
+userPassword: at15032004
+
+dn: uid=aconda,ou=utilisateurs,dc=org,dc=example
+objectClass: inetOrgPerson
+uid: aconda
+cn: Anna Conda
+sn: Conda
+givenName: Anna
+dateOfBirth: 28031999
+isAdmin: 0
+userPassword: ac28031999
+
+dn: uid=ltrophie,ou=utilisateurs,dc=org,dc=example
+objectClass: inetOrgPerson
+uid: ltrophie
+cn: Lucas Trophié
+sn: Trophié
+givenName: Lucas
+dateOfBirth: 21032000
+isAdmin: 0
+userPassword: lt21032000
+
+dn: uid=mhimum,ou=utilisateurs,dc=org,dc=example
+objectClass: inetOrgPerson
+uid: mhimum
+cn: Max Himum
+sn: Himum
+givenName: Max
+dateOfBirth: 09032000
+isAdmin: 0
+userPassword: mh09032000
+
+dn: uid=jceptes,ou=utilisateurs,dc=org,dc=example
+objectClass: inetOrgPerson
+uid: jceptes
+cn: Jacques Ceptes
+sn: Ceptes
+givenName: Jacques
+dateOfBirth: 28081999
+isAdmin: 0
+userPassword: jc28081999
+
+dn: uid=trique,ou=utilisateurs,dc=org,dc=example
+objectClass: inetOrgPerson
+uid: trique
+cn: Théo Rique
+sn: Rique
+givenName: Théo
+dateOfBirth: 24052001
+isAdmin: 1
+userPassword: tr24052001
+
+dn: uid=aterrieur,ou=utilisateurs,dc=org,dc=example
+objectClass: inetOrgPerson
+uid: aterrieur
+cn: Alex Terrieur
+sn: Terrieur
+givenName: Alex
+dateOfBirth: 22061999
+isAdmin: 0
+userPassword: at22061999
+
+dn: uid=jmonslip,ou=utilisateurs,dc=org,dc=example
+objectClass: inetOrgPerson
+uid: jmonslip
+cn: Jean-Phil Monslip
+sn: Monslip
+givenName: Jean-Phil
+dateOfBirth: 01012002
+isAdmin: 0
+userPassword: jm01012002
+
+dn: uid=merrateur,ou=utilisateurs,dc=org,dc=example
+objectClass: inetOrgPerson
+uid: merrateur
+cn: Maude Errateur
+sn: Errateur
+givenName: Maude
+dateOfBirth: 11072000
+isAdmin: 0
+userPassword: me11072000
+
+dn: uid=jpatagueulle,ou=utilisateurs,dc=org,dc=example
+objectClass: inetOrgPerson
+uid: jpatagueulle
+cn: James Patagueulle
+sn: Patagueulle
+givenName: James
+dateOfBirth: 23051999
+isAdmin: 1
+userPassword: jp23051999
+
+dn: uid=lbarre,ou=utilisateurs,dc=org,dc=example
+objectClass: inetOrgPerson
+uid: lbarre
+cn: Lenny Barre
+sn: Barre
+givenName: Lenny
+dateOfBirth: 05032003
+isAdmin: 0
+userPassword: lb05032003
+
+dn: uid=ohatmoilanusse,ou=utilisateurs,dc=org,dc=example
+objectClass: inetOrgPerson
+uid: ohatmoilanusse
+cn: Odile Hatmoilanusse
+sn: Hatmoilanusse
+givenName: Odile
+dateOfBirth: 14052003
+isAdmin: 0
+userPassword: oh14052003
+
+dn: uid=lratif,ou=utilisateurs,dc=org,dc=example
+objectClass: inetOrgPerson
+uid: lratif
+cn: Luc Ratif
+sn: Ratif
+givenName: Luc
+dateOfBirth: 22052004
+isAdmin: 0
+userPassword: lr22052004
+

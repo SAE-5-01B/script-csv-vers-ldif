@@ -1,0 +1,11 @@
+dn: ou=groupes,dc=${DOMAINENIV2},dc=${DOMAINENIV1}
+objectClass: organizationalUnit
+ou: groupes
+
+dn: ou=utilisateurs,dc=${DOMAINENIV2},dc=${DOMAINENIV1}
+objectClass: organizationalUnit
+ou: utilisateurs
+
+${GROUPES}
+
+${UTILISATEURS}

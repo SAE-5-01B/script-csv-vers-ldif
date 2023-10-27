@@ -1,0 +1,10 @@
+dn: uid=$uid,ou=utilisateurs,dc=$DOMAINENIV2,dc=$DOMAINENIV1
+objectClass: inetOrgPerson
+uid: $uid
+cn: $prenom $nom
+sn: $nom
+givenName: $prenom
+dateOfBirth: $datenaissance
+isAdmin: $estadmin
+userPassword: $mdp
+

@@ -1,0 +1,1 @@
+member: uid=$uid,ou=utilisateurs,dc=$DOMAINENIV2,dc=$DOMAINENIV1
