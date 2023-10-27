@@ -47,3 +47,11 @@ Concernant les attributs :
 - **EstAdmin**: 0 ou 1
 
 Un exemple type de liste d'utilisateurs peut être retrouvé [ici](./utilisateurs.csv).
+
+## Sortie
+
+Le script créé un dosier `out` contenant 3 fichiers [LDIF](https://fr.wikipedia.org/wiki/LDAP_Data_Interchange_Format) : 
+
+- [`userData.ldif`](./out/userData.ldif): contient uniquement les utilisateurs.
+- [`groupData.ldif`](./out/groupData.ldif): contient uniquement les groupes.
+- [`ldap.ldif`](./out/ldap.ldif): contient de quoi créer les Unités Organisationnelles *groupes*, *utilisateurs* et les remplir avec toute les données.
