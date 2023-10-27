@@ -59,8 +59,15 @@ for line in $(echo "$CSV" | tail -n +2); do
   export uid="$(echo ${prenom:0:1}${nom} | tr '[:upper:]' '[:lower:]'| iconv -f UTF-8 -t ASCII//TRANSLIT | sed -e 's/[^a-zA-Z0-9]//g')"
   export mdp="$(echo ${prenom:0:1}${nom:0:1}${datenaissance} | tr '[:upper:]' '[:lower:]'| iconv -f UTF-8 -t ASCII//TRANSLIT | sed -e 's/[^a-zA-Z0-9]//g')"
 
+  # Je vérifie si l'uid existe pas déjà
+  while grep -q "uid: $uid" out/userData.ldif; do
+    index=$(($index+1))
+    uid="${uid}${index}"  # Ajoute un chiffre à la fin de uid
+  done
+
   envsubst < ./templates/userData.ldif.template >> out/userData.ldif
 
+  # Je vérifie si le groupe existe déjà
   if ! grep -q "cn: $groupe" out/groupData.ldif; then
     envsubst < ./templates/groupData.ldif.template >> out/groupData.ldif
   fi

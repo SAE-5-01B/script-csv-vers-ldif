@@ -1,16 +1,16 @@
-dn: uid=mzetofrais,ou=utilisateurs,dc=org,dc=example
-objectClass: inetOrgPerson
-uid: mzetofrais
-cn: Mélanie Zetofrais
-sn: Zetofrais
-givenName: Mélanie
-dateOfBirth: 03042000
-isAdmin: 1
-userPassword: mz03042000
-
 dn: uid=jnanas,ou=utilisateurs,dc=org,dc=example
 objectClass: inetOrgPerson
 uid: jnanas
+cn: Judas Nanas
+sn: Nanas
+givenName: Judas
+dateOfBirth: 03042000
+isAdmin: 1
+userPassword: jn03042000
+
+dn: uid=jnanas1,ou=utilisateurs,dc=org,dc=example
+objectClass: inetOrgPerson
+uid: jnanas1
 cn: Judas Nanas
 sn: Nanas
 givenName: Judas
@@ -18,15 +18,15 @@ dateOfBirth: 12061999
 isAdmin: 0
 userPassword: jn12061999
 
-dn: uid=jbricot,ou=utilisateurs,dc=org,dc=example
+dn: uid=jnanas2,ou=utilisateurs,dc=org,dc=example
 objectClass: inetOrgPerson
-uid: jbricot
-cn: Judas Bricot
-sn: Bricot
+uid: jnanas2
+cn: Judas Nanas
+sn: Nanas
 givenName: Judas
 dateOfBirth: 25052001
 isAdmin: 0
-userPassword: jb25052001
+userPassword: jn25052001
 
 dn: uid=anasse,ou=utilisateurs,dc=org,dc=example
 objectClass: inetOrgPerson
@@ -128,9 +128,9 @@ dateOfBirth: 24052001
 isAdmin: 1
 userPassword: tr24052001
 
-dn: uid=aterrieur,ou=utilisateurs,dc=org,dc=example
+dn: uid=aterrieur3,ou=utilisateurs,dc=org,dc=example
 objectClass: inetOrgPerson
-uid: aterrieur
+uid: aterrieur3
 cn: Alex Terrieur
 sn: Terrieur
 givenName: Alex

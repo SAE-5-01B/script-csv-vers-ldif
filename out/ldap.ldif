@@ -12,9 +12,9 @@ cn: G1
 member: uid=gmanvussa,ou=utilisateurs,dc=org,dc=example
 member: uid=jneymar,ou=utilisateurs,dc=org,dc=example
 member: uid=anasse,ou=utilisateurs,dc=org,dc=example
-member: uid=jbricot,ou=utilisateurs,dc=org,dc=example
+member: uid=jnanas2,ou=utilisateurs,dc=org,dc=example
+member: uid=jnanas1,ou=utilisateurs,dc=org,dc=example
 member: uid=jnanas,ou=utilisateurs,dc=org,dc=example
-member: uid=mzetofrais,ou=utilisateurs,dc=org,dc=example
 
 dn: cn=G2,ou=groupes,dc=org,dc=example
 objectClass: groupOfNames
@@ -32,7 +32,7 @@ cn: G3
 member: uid=jpatagueulle,ou=utilisateurs,dc=org,dc=example
 member: uid=merrateur,ou=utilisateurs,dc=org,dc=example
 member: uid=jmonslip,ou=utilisateurs,dc=org,dc=example
-member: uid=aterrieur,ou=utilisateurs,dc=org,dc=example
+member: uid=aterrieur3,ou=utilisateurs,dc=org,dc=example
 member: uid=trique,ou=utilisateurs,dc=org,dc=example
 
 dn: cn=G4,ou=groupes,dc=org,dc=example
@@ -42,19 +42,19 @@ member: uid=lratif,ou=utilisateurs,dc=org,dc=example
 member: uid=ohatmoilanusse,ou=utilisateurs,dc=org,dc=example
 member: uid=lbarre,ou=utilisateurs,dc=org,dc=example
 
-dn: uid=mzetofrais,ou=utilisateurs,dc=org,dc=example
-objectClass: inetOrgPerson
-uid: mzetofrais
-cn: Mélanie Zetofrais
-sn: Zetofrais
-givenName: Mélanie
-dateOfBirth: 03042000
-isAdmin: 1
-userPassword: mz03042000
-
 dn: uid=jnanas,ou=utilisateurs,dc=org,dc=example
 objectClass: inetOrgPerson
 uid: jnanas
+cn: Judas Nanas
+sn: Nanas
+givenName: Judas
+dateOfBirth: 03042000
+isAdmin: 1
+userPassword: jn03042000
+
+dn: uid=jnanas1,ou=utilisateurs,dc=org,dc=example
+objectClass: inetOrgPerson
+uid: jnanas1
 cn: Judas Nanas
 sn: Nanas
 givenName: Judas
@@ -62,15 +62,15 @@ dateOfBirth: 12061999
 isAdmin: 0
 userPassword: jn12061999
 
-dn: uid=jbricot,ou=utilisateurs,dc=org,dc=example
+dn: uid=jnanas2,ou=utilisateurs,dc=org,dc=example
 objectClass: inetOrgPerson
-uid: jbricot
-cn: Judas Bricot
-sn: Bricot
+uid: jnanas2
+cn: Judas Nanas
+sn: Nanas
 givenName: Judas
 dateOfBirth: 25052001
 isAdmin: 0
-userPassword: jb25052001
+userPassword: jn25052001
 
 dn: uid=anasse,ou=utilisateurs,dc=org,dc=example
 objectClass: inetOrgPerson
@@ -172,9 +172,9 @@ dateOfBirth: 24052001
 isAdmin: 1
 userPassword: tr24052001
 
-dn: uid=aterrieur,ou=utilisateurs,dc=org,dc=example
+dn: uid=aterrieur3,ou=utilisateurs,dc=org,dc=example
 objectClass: inetOrgPerson
-uid: aterrieur
+uid: aterrieur3
 cn: Alex Terrieur
 sn: Terrieur
 givenName: Alex
